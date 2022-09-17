@@ -1,0 +1,8 @@
+version: "3.3"
+
+services:
+  web:
+    build: .
+    container_name: mirzoiev-test5
+    ports:
+      - 8080:8080
